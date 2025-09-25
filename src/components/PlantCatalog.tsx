@@ -32,6 +32,7 @@ type PlantCatalogProps = {
 
 const PlantCatalog = ({ variant = "embedded", showIntro = true }: PlantCatalogProps) => {
   const isEmbedded = variant === "embedded";
+  const sectionSpacing = isEmbedded ? "py-16 md:py-24" : "pt-0 pb-16 md:pb-24";
   const [difficultyFilter, setDifficultyFilter] = useState<DifficultyFilter>("Todas");
   const [categoryFilter, setCategoryFilter] = useState<string>("Todas");
   const [searchTerm, setSearchTerm] = useState("");
@@ -96,7 +97,7 @@ const PlantCatalog = ({ variant = "embedded", showIntro = true }: PlantCatalogPr
   const getGuideLink = (plant: Plant) => `/guias/${plant.id}`;
 
   return (
-    <section id="plantas" className="py-16 md:py-24">
+    <section id="plantas" className={sectionSpacing}>
       <div className="container px-4">
         {showIntro && (
           <div className="text-center space-y-4 mb-12">
@@ -255,3 +256,5 @@ const PlantCatalog = ({ variant = "embedded", showIntro = true }: PlantCatalogPr
 };
 
 export default PlantCatalog;
+
+

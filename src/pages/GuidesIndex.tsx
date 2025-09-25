@@ -66,7 +66,7 @@ const GuidesIndex = () => {
           </div>
         </section>
 
-        <section className="py-16">
+        <section className="pt-0 pb-16 md:pb-24">
           <div className="container px-4 space-y-10">
             <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
               <div className="w-full lg:max-w-xl space-y-2">
@@ -154,3 +154,4 @@ const GuidesIndex = () => {
 };
 
 export default GuidesIndex;
+
