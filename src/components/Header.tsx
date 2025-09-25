@@ -12,7 +12,7 @@ const navItems: NavItem[] = [
   { label: "Guias", type: "section", value: "guias" },
   { label: "Educativo", type: "section", value: "educativo" },
   { label: "Sobre", type: "section", value: "sobre" },
-  { label: "Catálogo completo", type: "route", value: "/catalogo" },
+  { label: "Cat\u00E1logo completo", type: "route", value: "/catalogo" },
   { label: "Guias completos", type: "route", value: "/guias" },
 ];
 
@@ -52,7 +52,7 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="flex flex-1 items-center justify-between gap-3 md:justify-end md:gap-10">
+        <div className="flex flex-1 items-center justify-between gap-3 md:justify-end md:gap-6">
           <nav className="hidden md:flex items-center space-x-6">
             {navItems.map((item) => (
               <button
@@ -67,7 +67,7 @@ const Header = () => {
           </nav>
 
           <Button variant="hero" className="hidden md:inline-flex" onClick={() => handleSectionNavigation("plantas")}>
-            Começar Agora
+            Come\u00E7ar Agora
           </Button>
 
           <Button
@@ -102,7 +102,7 @@ const Header = () => {
                 setIsMenuOpen(false);
               }}
             >
-              Começar Agora
+              Come\u00E7ar Agora
             </Button>
           </nav>
         </div>
