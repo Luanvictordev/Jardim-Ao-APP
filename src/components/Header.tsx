@@ -1,4 +1,4 @@
-ï»¿import { useCallback, useState } from "react";
+import { useCallback, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Leaf, Menu } from "lucide-react";
@@ -12,7 +12,7 @@ const navItems: NavItem[] = [
   { label: "Guias", type: "section", value: "guias" },
   { label: "Educativo", type: "section", value: "educativo" },
   { label: "Sobre", type: "section", value: "sobre" },
-  { label: "CatÃ¡logo completo", type: "route", value: "/catalogo" },
+  { label: "Catálogo completo", type: "route", value: "/catalogo" },
   { label: "Guias completos", type: "route", value: "/guias" },
 ];
 
@@ -52,7 +52,7 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
+        <div className="flex flex-1 items-center justify-between gap-3 md:justify-end md:gap-10">
           <nav className="hidden md:flex items-center space-x-6">
             {navItems.map((item) => (
               <button
@@ -67,7 +67,7 @@ const Header = () => {
           </nav>
 
           <Button variant="hero" className="hidden md:inline-flex" onClick={() => handleSectionNavigation("plantas")}>
-            ComeÃ§ar Agora
+            Começar Agora
           </Button>
 
           <Button
@@ -102,7 +102,7 @@ const Header = () => {
                 setIsMenuOpen(false);
               }}
             >
-              ComeÃ§ar Agora
+              Começar Agora
             </Button>
           </nav>
         </div>
