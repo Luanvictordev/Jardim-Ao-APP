@@ -8,10 +8,10 @@ Jardim ao App nasceu de um trabalho extensionista com a ideia de levar horticult
 
 ## Tecnologias e escolhas
 
-- **React + Vite** para ganhar velocidade de desenvolvimento sem carregar dependencia desnecessaria.
-- **TypeScript** garantindo previsibilidade quando o projeto roda em laboratorio ou na apresentacao.
-- **Tailwind e shadcn/ui** permitem montar layout consistente com a paleta inspirada nas hortas comunitarias.
-- **React Router + React Query** organizam as rotas e o fluxo de dados compartilhado entre catalogo, guias e landing.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="20" height="20" /> + <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg" alt="Vite" width="20" height="20" /> **React + Vite** para ganhar velocidade de desenvolvimento sem carregar dependencia desnecessaria.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="20" height="20" /> **TypeScript** garantindo previsibilidade quando o projeto roda em laboratorio ou na apresentacao.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="20" height="20" /> + <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" alt="shadcn" width="20" height="20" /> **Tailwind e shadcn/ui** permitem montar layout consistente com a paleta inspirada nas hortas comunitarias.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/reactrouter/reactrouter-original.svg" alt="React Router" width="20" height="20" /> + <img src="https://raw.githubusercontent.com/TanStack/query/main/media/emblem-light.svg" alt="React Query" width="20" height="20" /> **React Router + React Query** organizam as rotas e o fluxo de dados compartilhado entre catalogo, guias e landing.
 
 ## Como rodar por aqui
 
@@ -33,3 +33,4 @@ _Biblioteca completa com duracao, estacao ideal e topicos principais de cada tri
 ## Obrigado por passar por aqui
 
 Esse projeto existe porque muita gente compartilhou historias de quintal, hortas comunitarias, feiras locais e salas de aula. Se tiver feedback, relato ou quiser adaptar para a sua comunidade, abre uma issue ou manda mensagem. Vamos seguir cultivando - online e offline.
+
