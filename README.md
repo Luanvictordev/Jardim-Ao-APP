@@ -1,15 +1,19 @@
-# Jardim ao App
+﻿# Jardim ao App
 
-Landing e catalogo do projeto Jardim ao App, juntando guias de cultivo e dados extensionistas para agricultura urbana.
+![Visão inicial do Jardim ao App](public/readme/landing.png)
 
-## Por que essas escolhas?
+## Apresentação
 
-- **React + Vite**: escolha leve para prototipar rapido e acessivel para quem quiser contribuir depois.
-- **TypeScript**: ajuda a manter o codigo previsivel na hora da apresentacao e durante as revisoes.
-- **Tailwind CSS e shadcn/ui**: aceleram o visual sem perder a identidade que criamos a partir das hortas comunitarias.
-- **React Query e React Router**: organizam as rotas e deixam o fluxo de dados tranquilo entre landing, catalogo e guias completos.
+Projeto que nasceu dentro da disciplina extensionista para mostrar que jardinagem urbana pode caber em qualquer quintal ou sala de aula. A landing reúne os pilares do programa, traz números reais do catálogo e convida quem chega a mergulhar nos guias práticos.
 
-## Como rodar
+## Como construí
+
+- **React + Vite**: stack leve para iterar rápido e manter o projeto agradável para novas contribuições.
+- **TypeScript**: mantém o código previsível e facilita quando alguém novo precisa revisar ou apresentar.
+- **Tailwind + shadcn/ui**: montam a base visual com agilidade sem abrir mão da paleta pensada para o tema comunitário.
+- **React Router e React Query**: organizam as rotas e o consumo dos dados que alimentam o catálogo e os guias completos.
+
+## Como rodar por aqui
 
 ```bash
 npm install
@@ -17,18 +21,14 @@ npm run dev
 npm run lint
 ```
 
-## Como esta o projeto em tela
+## Pedaços do projeto
 
-![Home do Jardim ao App](public/readme/home.png)
-_Tela inicial com o resumo do projeto, estatisticas principais e chamadas para o catalogo e os guias._
+![Sessão do catálogo](public/readme/catalogo.png)
+_Filtros rápidos, contagem real de espécies e cards com dicas que a gente usa nas oficinas._
 
-![Catalogo de plantas](public/readme/CatalogoDePlantas.png)
-_CatalogoDePlantas.png destaca os filtros, contagem de especies e o card interativo de exemplo._
+![Galeria de guias](public/readme/guias.png)
+_Biblioteca completa com duração, estação ideal e tópicos principais de cada guia._
 
-![Guias completos](public/readme/GuiasCompletos.png)
-_O print GuiasCompletos.png mostra a biblioteca de materiais com filtros e descricoes das trilhas._
+## Obrigado por passar por aqui
 
-## Agradecimento
-
-Esse trabalho so existe porque muita gente compartilhou historias de quintal, hortas comunitarias e salas de aula. Se tiver sugestoes, relatos ou quiser reaproveitar o conteudo, abre uma issue ou manda mensagem. Vamos seguir cultivando, online e offline.
-
+Esse projeto é resultado de quem dividiu histórias de quintal, hortas comunitárias, feiras locais e salas de aula. Se tiver feedback, relato ou quiser adaptar para a sua comunidade, abre uma issue ou manda mensagem. Vamos seguir cultivando — online e offline.
