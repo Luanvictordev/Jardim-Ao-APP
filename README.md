@@ -4,7 +4,7 @@
 
 ## Sobre o projeto
 
-Jardim ao App nasceu de um trabalho extensionista com a ideia de levar horticultura urbana para escolas, comunidades e quem quiser montar uma horta no quintal. A landing apresenta o programa, mostra estatisticas reais do catalogo e guia quem chega ate os materiais práticos.
+Jardim ao App nasceu dentro do projeto extensionista do curso de Analise e Desenvolvimento de Sistemas da UNINTER. A ideia e levar horticultura urbana para escolas, comunidades e quem quiser montar uma horta no quintal, conectando dados coletados em campo a materiais digitais. A landing apresenta o programa, mostra estatisticas reais do catalogo e guia quem chega ate os materiais praticos.
 
 ## Tecnologias e escolhas
 
@@ -33,4 +33,3 @@ _Biblioteca completa com duracao, estacao ideal e topicos principais de cada tri
 ## Obrigado por passar por aqui
 
 Esse projeto existe porque muita gente compartilhou historias de quintal, hortas comunitarias, feiras locais e salas de aula. Se tiver feedback, relato ou quiser adaptar para a sua comunidade, abre uma issue ou manda mensagem. Vamos seguir cultivando - online e offline.
-
