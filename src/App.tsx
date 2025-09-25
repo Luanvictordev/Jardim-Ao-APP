@@ -11,13 +11,17 @@ import NotFound from "./pages/NotFound";
 import ScrollManager from "@/components/ScrollManager";
 
 const queryClient = new QueryClient();
+const routerBaseName =
+  import.meta.env.BASE_URL === "/"
+    ? "/"
+    : import.meta.env.BASE_URL.replace(/\/$/, "");
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename={routerBaseName}>
         <ScrollManager />
         <Routes>
           <Route path="/" element={<Index />} />
