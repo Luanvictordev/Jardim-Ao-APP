@@ -1,34 +1,35 @@
 ﻿# Jardim ao App
 
-![Visão inicial do Jardim ao App](public/readme/landing.png)
+![Visao inicial do Jardim ao App](public/readme/landing.png)
 
-## Apresentação
+## Sobre o projeto
 
-Projeto que nasceu dentro da disciplina extensionista para mostrar que jardinagem urbana pode caber em qualquer quintal ou sala de aula. A landing reúne os pilares do programa, traz números reais do catálogo e convida quem chega a mergulhar nos guias práticos.
+Jardim ao App nasceu de um trabalho extensionista com a ideia de levar horticultura urbana para escolas, comunidades e quem quiser montar uma horta no quintal. A landing apresenta o programa, mostra estatisticas reais do catalogo e guia quem chega ate os materiais práticos.
 
-## Como construí
+## Tecnologias e escolhas
 
-- **React + Vite**: stack leve para iterar rápido e manter o projeto agradável para novas contribuições.
-- **TypeScript**: mantém o código previsível e facilita quando alguém novo precisa revisar ou apresentar.
-- **Tailwind + shadcn/ui**: montam a base visual com agilidade sem abrir mão da paleta pensada para o tema comunitário.
-- **React Router e React Query**: organizam as rotas e o consumo dos dados que alimentam o catálogo e os guias completos.
+- **React + Vite** para ganhar velocidade de desenvolvimento sem carregar dependencia desnecessaria.
+- **TypeScript** garantindo previsibilidade quando o projeto roda em laboratorio ou na apresentacao.
+- **Tailwind e shadcn/ui** permitem montar layout consistente com a paleta inspirada nas hortas comunitarias.
+- **React Router + React Query** organizam as rotas e o fluxo de dados compartilhado entre catalogo, guias e landing.
 
 ## Como rodar por aqui
 
-```bash
-npm install
-npm run dev
-npm run lint
-```
+1. `git clone https://github.com/Luanvictordev/Jardim-Ao-APP.git`
+2. `cd Jardim-Ao-APP`
+3. `npm install` para baixar as dependencias.
+4. `npm run dev` e acesse `http://localhost:5173`.
+5. `npm run build && npm run preview` caso queira validar o bundle antes de subir no GitHub Pages.
+6. `npm run lint` para garantir que o padrao de estilo continua limpo.
 
-## Pedaços do projeto
+## O que voce encontra na interface
 
-![Sessão do catálogo](public/readme/catalogo.png)
-_Filtros rápidos, contagem real de espécies e cards com dicas que a gente usa nas oficinas._
+![Sessao do catalogo](public/readme/catalogo.png)
+_Filtros rapidos, contagem real de especies e cards com dicas que usamos nas oficinas._
 
 ![Galeria de guias](public/readme/guias.png)
-_Biblioteca completa com duração, estação ideal e tópicos principais de cada guia._
+_Biblioteca completa com duracao, estacao ideal e topicos principais de cada trilha._
 
 ## Obrigado por passar por aqui
 
-Esse projeto é resultado de quem dividiu histórias de quintal, hortas comunitárias, feiras locais e salas de aula. Se tiver feedback, relato ou quiser adaptar para a sua comunidade, abre uma issue ou manda mensagem. Vamos seguir cultivando — online e offline.
+Esse projeto existe porque muita gente compartilhou historias de quintal, hortas comunitarias, feiras locais e salas de aula. Se tiver feedback, relato ou quiser adaptar para a sua comunidade, abre uma issue ou manda mensagem. Vamos seguir cultivando - online e offline.
